@@ -157,6 +157,7 @@ S3Storage.prototype._handleFile = function (req, file, cb) {
       Key: opts.key,
       ACL: opts.acl,
       CacheControl: opts.cacheControl,
+      ContentEncoding: opts.contentEncoding,
       ContentType: opts.contentType,
       Metadata: opts.metadata,
       StorageClass: opts.storageClass,
